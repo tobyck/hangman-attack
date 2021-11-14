@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input {
+    font-family: "Fira Sans";
+    font-size: 35px;
+    letter-spacing: 0.6px;
+    padding: 13px;
+    width: 420px;
+    border-width: 4px;
+    border-radius: 15px;
+    border-color: #ff3d3d;
+    background-color: #fff;
+}
+.input {
+    padding-bottom: 25px;
+}
+#input {
+    text-transform: lowercase;
+}
+::placeholder {
+    color: #888;
+}
+.title {
+    font-family: "Fira Sans";
+    font-size: 60px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.6px;
+}
+.search {
+    text-align: center;
+    font-family: "Fira Sans";
+    font-size: 30px;
+    letter-spacing: 0.6px;
+    border-radius: 15px;
+    border-width: 0;
+    color: #fff;
+    background-color: #ff3d3d;
+    height: 65px;
+    width: 155px;
+    transition: 0.4s ease;
+    float: right;
+}
+.search:hover {
+    cursor: pointer;
+    padding-bottom: 6px;
+    transition: 0.4s ease;
+}
+@media screen and (max-width: 1600px) {
+    .search:hover {
+        font-size: 30px;
+    }
+}
